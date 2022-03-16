@@ -10054,8 +10054,6 @@ div.output_area pre {
    the prompt div. */
 div.output_subarea {
   overflow-x: auto; 
-  overflow-y: scroll;
-    max-height: 500px;
   padding: 0.4em;
   /* Old browsers */
   -webkit-box-flex: 1;
@@ -10067,6 +10065,8 @@ div.output_subarea {
 }
 div.output_scroll div.output_subarea {
   overflow-x: visible;
+  overflow-y: scroll;
+    max-height: 500px;
 }
 /* The rest of the output_* classes are for special styling of the different
    output types */
