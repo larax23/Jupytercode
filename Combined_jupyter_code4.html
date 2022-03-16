@@ -10065,6 +10065,8 @@ div.output_subarea {
 }
 div.output_scroll div.output_subarea {
   overflow-x: visible;
+  overflow-y: scroll;
+  max-height: 500px;
 }
 /* The rest of the output_* classes are for special styling of the different
    output types */
@@ -11738,10 +11740,7 @@ div#notebook {
   div.output { 
     display: block;
     page-break-inside: avoid;
-    overflow-y: scroll;
-    max-height: 500px;
   }
-
 }
 </style>
 
